@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pesitro UltraClean 6580 Ortho &amp; 1680 Single Tuft | ReSmile Egypt</title>
+<link rel="icon" href="images/favicon.png">
+<meta name="description" content="Pesitro UltraClean 6580 Ortho – toothbrush for braces, and 1680 Single Tuft brush. Official PESITRO distributor in Egypt: ReSmile.">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --primary:#2c572c; --primary-dark:#1f3f20; --accent:#74b273; --dark:#101819;
+    --light:#f9f5e9; --text:#4a5650; --radius:18px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'Poppins',sans-serif;color:var(--text);line-height:1.7}
+  html[dir="rtl"] body{font-family:'Cairo',sans-serif}
+  a{text-decoration:none;color:inherit}
+  img{max-width:100%;display:block}
+  .container{width:90%;max-width:1200px;margin:auto}
+  h1,h2,h3{color:var(--dark);line-height:1.3}
+  .section{padding:90px 0}
+  .section-title{text-align:center;margin-bottom:55px}
+  .section-title span{color:var(--primary);font-weight:600;letter-spacing:1px;text-transform:uppercase;font-size:14px}
+  .section-title h2{font-size:36px;margin-top:8px}
+  .btn{display:inline-block;padding:14px 34px;border-radius:50px;font-weight:600;transition:.3s;cursor:pointer;border:none;font-size:16px;font-family:inherit}
+  .btn-primary{background:var(--primary);color:#fff}
+  .btn-primary:hover{background:var(--primary-dark);transform:translateY(-2px)}
+  .btn-outline{border:2px solid var(--primary);color:var(--primary);background:transparent}
+  .btn-outline:hover{background:var(--primary);color:#fff}
+
+  .topbar{background:var(--dark);color:#e6eadd;font-size:14px;padding:8px 0}
+  .topbar .container{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+  .topbar a{color:#fff}
+
+  header{position:sticky;top:0;background:var(--light);box-shadow:0 2px 20px rgba(0,0,0,.06);z-index:100}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0;position:relative}
+  .logo{font-size:28px;font-weight:700;color:var(--dark)}
+  .logo b{color:var(--primary)}
+  .logo img{height:48px;width:auto;display:block}
+  footer .logo img{height:60px;background:var(--light);padding:8px 16px;border-radius:14px;margin:0 auto 14px}
+  .nav ul{display:flex;gap:28px;list-style:none}
+  .nav ul a{font-weight:500;color:var(--dark);transition:.3s}
+  .nav ul a:hover{color:var(--primary)}
+  .nav-right{display:flex;gap:12px;align-items:center}
+  .lang-btn{background:var(--light);border:1px solid var(--primary);color:var(--primary);padding:8px 16px;border-radius:30px;cursor:pointer;font-weight:600;font-family:'Cairo',sans-serif}
+  .burger{display:none;font-size:28px;background:none;border:none;cursor:pointer;color:var(--dark)}
+
+  .hero{background:linear-gradient(135deg,var(--light) 0%,#e4efd8 100%);padding:70px 0;overflow:hidden}
+  .hero .container{display:grid;grid-template-columns:1.1fr 1fr;gap:50px;align-items:center}
+  .badge{display:inline-block;background:#fff;color:var(--primary);padding:6px 18px;border-radius:30px;font-weight:600;font-size:14px;box-shadow:0 4px 15px rgba(116,178,115,.15);margin-bottom:20px}
+  .hero h1{font-size:48px;margin-bottom:12px}
+  .hero h1 span{color:var(--primary)}
+  .slogan{font-style:italic;color:var(--primary-dark);font-size:18px;margin-bottom:18px}
+  .hero p{font-size:18px;margin-bottom:32px}
+  .hero-btns{display:flex;gap:15px;flex-wrap:wrap}
+  .hero-img{position:relative}
+  .hero-img img{width:100%;height:580px;object-fit:cover;object-position:center 46%;border-radius:30px;box-shadow:0 30px 60px rgba(16,24,25,.2)}
+  .hero-stat{position:absolute;bottom:25px;left:-25px;background:#fff;padding:18px 24px;border-radius:var(--radius);box-shadow:0 10px 30px rgba(0,0,0,.12)}
+  html[dir="rtl"] .hero-stat{left:auto;right:-25px}
+  .hero-stat strong{display:block;font-size:30px;color:var(--primary)}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:28px}
+  .card{background:#fff;padding:36px 28px;border-radius:var(--radius);box-shadow:0 8px 30px rgba(0,0,0,.06);transition:.3s;text-align:center}
+  .card:hover{transform:translateY(-8px);box-shadow:0 18px 40px rgba(116,178,115,.18)}
+  .card .icon{width:72px;height:72px;margin:0 auto 20px;background:var(--light);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:32px}
+  .card h3{font-size:20px;margin-bottom:10px}
+
+  .about{background:var(--light)}
+  .about .container{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+  .about img{border-radius:30px;box-shadow:0 20px 50px rgba(0,0,0,.08)}
+  .about h2{font-size:36px;margin-bottom:20px}
+  .check-list{list-style:none;margin:25px 0}
+  .check-list li{padding:8px 0;padding-inline-start:34px;position:relative}
+  .check-list li::before{content:"✓";position:absolute;inset-inline-start:0;top:10px;width:24px;height:24px;background:var(--primary);color:#fff;border-radius:50%;font-size:13px;display:flex;align-items:center;justify-content:center}
+
+  .colors{display:flex;justify-content:center;gap:30px;flex-wrap:wrap}
+  .color{text-align:center;font-weight:500;color:var(--dark)}
+  .color i{display:block;width:80px;height:80px;border-radius:50%;margin:0 auto 12px;box-shadow:0 10px 25px rgba(0,0,0,.12);border:5px solid #fff;transition:.3s}
+  .color:hover i{transform:scale(1.1)}
+
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px;counter-reset:step}
+  .step{text-align:center;padding:20px}
+  .step::before{counter-increment:step;content:counter(step);display:flex;align-items:center;justify-content:center;width:60px;height:60px;margin:0 auto 18px;border-radius:50%;background:var(--primary);color:#fff;font-size:24px;font-weight:700}
+
+  .distributor{background:linear-gradient(135deg,var(--primary),var(--dark));color:#fff;text-align:center;padding:80px 0}
+  .distributor h2{color:#fff;font-size:36px;margin-bottom:15px}
+  .distributor p{max-width:700px;margin:0 auto 30px;opacity:.9}
+  .distributor .btn{background:#fff;color:var(--primary)}
+
+  .faq{max-width:850px;margin:auto}
+  .faq-item{background:#fff;border-radius:14px;margin-bottom:15px;box-shadow:0 4px 18px rgba(0,0,0,.05);overflow:hidden}
+  .faq-q{padding:22px 26px;cursor:pointer;font-weight:600;color:var(--dark);display:flex;justify-content:space-between;align-items:center;gap:15px}
+  .faq-q::after{content:"+";font-size:24px;color:var(--primary);transition:.3s}
+  .faq-item.active .faq-q::after{transform:rotate(45deg)}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease;padding:0 26px}
+  .faq-item.active .faq-a{max-height:300px;padding-bottom:22px}
+
+  .order .container{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}
+  .contact-info .row{display:flex;gap:15px;margin-bottom:22px;align-items:center}
+  .contact-info .icon{width:52px;height:52px;flex-shrink:0;background:var(--light);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px}
+  .contact-info a:hover{color:var(--primary)}
+  .ltr{direction:ltr;unicode-bidi:embed}
+  form{background:#fff;padding:40px;border-radius:var(--radius);box-shadow:0 10px 40px rgba(0,0,0,.08)}
+  form input,form select,form textarea{width:100%;padding:14px 18px;margin-bottom:16px;border:1px solid #e3e0d2;border-radius:12px;font-family:inherit;font-size:15px}
+  form input:focus,form select:focus,form textarea:focus{outline:none;border-color:var(--primary)}
+  form .btn{width:100%}
+
+  footer{background:var(--dark);color:#c9d2c6;padding:40px 0;text-align:center}
+  footer .logo{color:#fff;margin-bottom:10px;display:inline-block}
+
+  .whatsapp{position:fixed;bottom:25px;right:25px;width:60px;height:60px;background:#25d366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 25px rgba(37,211,102,.4);z-index:200;transition:.3s}
+  .whatsapp:hover{transform:scale(1.1)}
+  html[dir="rtl"] .whatsapp{right:auto;left:25px}
+
+  .price{display:inline-flex;align-items:baseline;gap:8px;background:#fff;border:2px solid var(--accent);border-radius:50px;padding:6px 22px;margin-bottom:24px;color:var(--dark);font-weight:500}
+  .price .old{font-size:18px;color:#8a8f87;text-decoration:line-through}
+  .price strong{font-size:28px;color:var(--primary)}
+  .hero .price{display:flex;width:fit-content}
+  /* SINGLE TUFT */
+  .tuft-tag{font-style:italic;color:var(--primary);font-weight:600;margin-bottom:10px}
+  .tuft-ideal{font-weight:600;color:var(--dark);margin-top:18px;margin-bottom:0}
+  .variants{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px;max-width:800px;margin:auto}
+  .adv{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:20px}
+  .adv .card{padding:28px 16px}
+  .adv .icon{width:84px;height:84px;font-size:22px;font-weight:700;color:var(--primary);border:2px solid var(--accent)}
+  .cert{text-align:center;margin-top:26px;font-weight:600;color:var(--dark);letter-spacing:1px}
+
+  .tuft-note{font-size:15px;opacity:.85;margin-bottom:22px}
+  .tuft-colors{font-size:14px;color:var(--dark);font-weight:500;margin-bottom:24px}
+  .tuft-extra{display:block !important;margin-top:60px}
+  .tuft-banner{width:100%;height:340px;object-fit:cover;object-position:center 40%;border-radius:30px;box-shadow:0 20px 50px rgba(0,0,0,.08);margin-bottom:28px}
+  .tuft-shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px}
+  .tuft-shots figure{background:#fff;border-radius:var(--radius);box-shadow:0 8px 30px rgba(0,0,0,.06);padding:20px;transition:.3s}
+  .tuft-shots figure:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(116,178,115,.18)}
+  .tuft-shots img{width:100%;height:340px;object-fit:contain;box-shadow:none;border-radius:12px}
+
+  /* GALLERY */
+  .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}
+  .gallery img{width:100%;height:240px;object-fit:cover;border-radius:var(--radius);box-shadow:0 8px 25px rgba(0,0,0,.08);cursor:zoom-in;transition:.3s}
+  .gallery img:hover{transform:scale(1.03);box-shadow:0 14px 35px rgba(116,178,115,.25)}
+  .lightbox{position:fixed;inset:0;background:rgba(16,24,25,.92);display:none;align-items:center;justify-content:center;z-index:300;padding:20px;cursor:zoom-out}
+  .lightbox.show{display:flex}
+  .lightbox img{max-width:100%;max-height:100%;border-radius:12px}
+
+  @media(max-width:900px){
+    .hero .container,.about .container,.order .container{grid-template-columns:1fr}
+    .hero h1{font-size:34px}
+    .hero-img img{height:450px}
+    .hero-stat{left:10px}
+    html[dir="rtl"] .hero-stat{right:10px}
+    .nav ul{display:none;position:absolute;top:100%;left:0;right:0;background:var(--light);flex-direction:column;padding:20px;gap:15px;box-shadow:0 10px 20px rgba(0,0,0,.08)}
+    .nav ul.open{display:flex}
+    .burger{display:block}
+    .section{padding:60px 0}
+    .section-title h2,.about h2,.distributor h2{font-size:28px}
+    form{padding:25px}
+  }
+</style>
+<link rel="canonical" href="https://mahmoudabdelghaffar597.github.io/Resmile-Ortho/">
+<meta property="og:url" content="https://mahmoudabdelghaffar597.github.io/Resmile-Ortho/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pesitro UltraClean 6580 Ortho | ReSmile Egypt">
+<meta property="og:description" content="Toothbrush for braces, Ortho-Care Kit and 1680 Single Tuft. Official PESITRO distributor in Egypt.">
+<meta property="og:image" content="https://mahmoudabdelghaffar597.github.io/Resmile-Ortho/images/img02.jpg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <span data-i18n="topbar">🇪🇬 Official distributor of PESITRO in Egypt</span>
+    <span class="ltr">📞 <a href="tel:+201033534313">+20 103 353 4313</a> &nbsp;|&nbsp; ✉️ <a href="mailto:mahmoudabdelghaffar1@gmail.com">mahmoudabdelghaffar1@gmail.com</a></span>
+  </div>
+</div>
+
+<header>
+  <div class="container nav">
+    <a href="#home" class="logo"><img id="logoImg" src="images/img01.png" alt="Resmile Center"></a>
+    <ul id="menu">
+      <li><a href="#home" data-i18n="nav_home">Home</a></li>
+      <li><a href="#features" data-i18n="nav_features">Features</a></li>
+      <li><a href="#product" data-i18n="nav_product">Product</a></li>
+      <li><a href="#ortho-kit" data-i18n="nav_kit">Ortho-Care Kit</a></li>
+      <li><a href="#single-tuft" data-i18n="nav_tuft">1680 Single Tuft</a></li>
+      <li><a href="#gallery" data-i18n="nav_gallery">Gallery</a></li>
+      <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+      <li><a href="#order" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="lang-btn" id="langBtn">العربية</button>
+      <button class="burger" id="burger" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container">
+    <div>
+      <span class="badge" data-i18n="hero_badge">✨ NEW in Egypt</span>
+      <h1>Pesitro UltraClean <span>6580 Ortho</span></h1>
+      <div class="slogan">Your Expert For Oral Care</div>
+      <p data-i18n="hero_text">6,580 ultra-soft UltraX™ polyester filaments (0.10 mm) clean gently around brackets and wires while reducing gum irritation.</p>
+      <div class="price"><span data-i18n="price_lbl">Price</span> <s class="old">600</s> <strong>450</strong> <span data-i18n="cur">EGP</span></div>
+      <div class="hero-btns">
+        <a href="#order" class="btn btn-primary" data-i18n="btn_order">Order Now</a>
+        <a href="#product" class="btn btn-outline" data-i18n="btn_more">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img id="heroImg" src="images/img02.jpg" alt="Pesitro UltraClean 6580 Ortho toothbrushes">
+      <div class="hero-stat">
+        <strong>6580</strong>
+        <span data-i18n="hero_stat">ultra-soft bristles</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section" id="features">
+  <div class="container">
+    <div class="section-title">
+      <span data-i18n="feat_sub">Why Pesitro Ortho</span>
+      <h2 data-i18n="feat_title">Designed for orthodontic care</h2>
+    </div>
+    <div class="grid">
+      <div class="card"><div class="icon">🦷</div><h3 data-i18n="f1_t">U-shaped bracket groove</h3><p data-i18n="f1_d">U-shaped bristle profile wraps around orthodontic brackets and wires.</p></div>
+      <div class="card"><div class="icon">🪶</div><h3 data-i18n="f2_t">6,580 ultra-soft bristles</h3><p data-i18n="f2_d">UltraX™ polyester filaments, 0.10 mm, reduce gum irritation.</p></div>
+      <div class="card"><div class="icon">✨</div><h3 data-i18n="f3_t">Flexible 45° head</h3><p data-i18n="f3_d">Angled head easily reaches the back teeth.</p></div>
+      <div class="card"><div class="icon">🎨</div><h3 data-i18n="f4_t">BPA-free handle</h3><p data-i18n="f4_d">Ergonomic, non-slip grip in a choice of fun colors.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT -->
+<section class="section about" id="product">
+  <div class="container">
+    <img id="prodImg" src="images/img03.jpg" alt="Pesitro Ortho cleaning braces">
+    <div>
+      <span style="color:var(--primary);font-weight:600" data-i18n="prod_sub">ABOUT THE PRODUCT</span>
+      <h2 data-i18n="prod_title">Smart care for a beautiful smile</h2>
+      <p data-i18n="prod_text">Pesitro UltraClean 6580 Ortho is made for people with braces and other orthodontic appliances, with 6,580 ultra-soft UltraX™ polyester filaments (0.10 mm).</p>
+      <ul class="check-list">
+        <li data-i18n="c1">Ultra-soft 0.10 mm filaments, gentle on gums</li>
+        <li data-i18n="c2">BPA-free handle with ergonomic non-slip grip</li>
+        <li data-i18n="c3">Flexible 45° angled head reaches back teeth</li>
+        <li data-i18n="c4">U-shaped bristle profile wraps around brackets and wires</li>
+      </ul>
+      <div class="price"><span data-i18n="price_lbl">Price</span> <s class="old">600</s> <strong>450</strong> <span data-i18n="cur">EGP</span></div><br>
+      <a href="#order" class="btn btn-primary" data-i18n="btn_order">Order Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- ORTHO-CARE KIT -->
+<section class="section about kit" id="ortho-kit" style="background:#fff">
+  <div class="container">
+    <img id="kitImg" src="images/img04.jpg" alt="Pesitro Ortho-Care Kit: 6580 Ortho toothbrush, Ultra Floss, interdental brushes and ortho wax">
+    <div>
+      <span style="color:var(--primary);font-weight:600" data-i18n="kit_sub">NEW · COMPLETE KIT</span>
+      <h2>Pesitro <span style="color:var(--primary)" data-i18n="kit_name">Ortho-Care Kit</span></h2>
+      <p data-i18n="kit_text">Everything you need to keep braces clean and comfortable, in one pack.</p>
+      <p class="tuft-ideal" data-i18n="kit_incl">Kit contents:</p>
+      <ul class="check-list">
+        <li data-i18n="k1">6580 Ortho toothbrush</li>
+        <li data-i18n="k2">Advance Ultra Floss</li>
+        <li data-i18n="k3">3 interdental brushes</li>
+        <li data-i18n="k4">Vitamin E ortho wax</li>
+      </ul>
+      <ul class="check-list">
+        <li data-i18n="k5">Brush filaments: 6,580 Ultra-X filaments, 0.10 mm</li>
+        <li data-i18n="k6">Wax format: pre-cut orthodontic wax with Vitamin E</li>
+        <li data-i18n="k7">Floss quantity: 30 uses</li>
+      </ul>
+      <div class="price"><span data-i18n="price_lbl">Price</span> <s class="old">1000</s> <strong>850</strong> <span data-i18n="cur">EGP</span></div><br>
+      <a href="#order" class="btn btn-primary" data-i18n="btn_order">Order Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- SINGLE TUFT 1680 -->
+<section class="section about" id="single-tuft">
+  <div class="container">
+    <img id="tuftFan" src="images/img05.jpg" alt="Pesitro UltraClean 1680 Single Tuft brushes in 8 colors">
+    <div>
+      <span style="color:var(--primary);font-weight:600" data-i18n="tuft_sub">NEW · SINGLE TUFT</span>
+      <h2>Pesitro UltraClean <span style="color:var(--primary)">1680</span> Single Tuft</h2>
+      <p class="tuft-tag" data-i18n="tuft_tag">Every Tooth Deserves Individual Attention.</p>
+      <p data-i18n="tuft_text">The PESITRO UltraClean 1680 Single Tuft Brush is engineered for precise cleaning of hard-to-reach areas where regular brushes can't reach. It gives a professional-grade clean with every use.</p>
+      <p class="tuft-ideal" data-i18n="tuft_ideal">Ideal for:</p>
+      <ul class="check-list">
+        <li data-i18n="t1">Orthodontic care</li>
+        <li data-i18n="t2">Implants and bridges</li>
+        <li data-i18n="t3">Post-surgical cleaning</li>
+        <li data-i18n="t4">Crowded or misaligned teeth</li>
+      </ul>
+      <p class="tuft-colors" data-i18n="tuft_col">Available in 8 colors</p>
+      <div class="price"><span data-i18n="price_lbl">Price</span> <s class="old">600</s> <strong>450</strong> <span data-i18n="cur">EGP</span></div><br>
+      <a href="#order" class="btn btn-primary" data-i18n="btn_order">Order Now</a>
+    </div>
+  </div>
+  <div class="container tuft-extra">
+    <div class="section-title">
+      <span data-i18n="var_sub">Variants</span>
+      <h2 data-i18n="var_title">Available in two variants</h2>
+    </div>
+    <div class="variants">
+      <div class="card"><div class="icon">⚪</div><h3 data-i18n="v1_t">6 mm (Round Head)</h3><p data-i18n="v1_d">For delicate interdental and gumline cleaning.</p></div>
+      <div class="card"><div class="icon">🔺</div><h3 data-i18n="v2_t">9 mm (Cone Head)</h3><p data-i18n="v2_d">For deep access around orthodontic wires, bridges and implants.</p></div>
+    </div>
+    <div class="section-title" style="margin-top:70px">
+      <span data-i18n="adv_sub">Advantages</span>
+      <h2 data-i18n="adv_title">5 advantages</h2>
+    </div>
+    <div class="adv">
+      <div class="card"><div class="icon">0.10</div><p data-i18n="a_1">Filaments 0.10 mm</p></div>
+      <div class="card"><div class="icon">0.12</div><p data-i18n="a_2">Filaments 0.12 mm</p></div>
+      <div class="card"><div class="icon">1680</div><p data-i18n="a_3">1680 filaments</p></div>
+      <div class="card"><div class="icon">X</div><p data-i18n="a_4">Ultra-X™ technology</p></div>
+      <div class="card"><div class="icon">🦷</div><p data-i18n="a_5">Braces, bridges and implants</p></div>
+    </div>
+    <p class="cert" data-i18n="cert">CE · ISO 13485</p>
+
+    <img class="tuft-banner" style="margin-top:50px" id="tuftBanner" src="images/img06.jpg" alt="Pesitro UltraClean 1680 Single Tuft close-up">
+    <div class="tuft-shots">
+      <figure><img id="tuftPink" src="images/img07.jpg" alt="Pesitro 1680 Single Tuft pink"></figure>
+      <figure><img id="tuftRed" src="images/img08.jpg" alt="Pesitro 1680 Single Tuft red"></figure>
+      <figure><img id="tuftPurple" src="images/img09.jpg" alt="Pesitro 1680 Single Tuft purple"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+  <div class="container">
+    <div class="section-title">
+      <span data-i18n="gal_sub">Gallery</span>
+      <h2 data-i18n="gal_title">Pesitro Ortho in photos</h2>
+    </div>
+    <div class="gallery" id="galleryGrid">
+<img src="images/img10.jpg" loading="lazy" alt="Pesitro UltraClean photo 1">
+<img src="images/img11.jpg" loading="lazy" alt="Pesitro UltraClean photo 2">
+<img src="images/img12.jpg" loading="lazy" alt="Pesitro UltraClean photo 3">
+<img src="images/img13.jpg" loading="lazy" alt="Pesitro UltraClean photo 4">
+<img src="images/img14.jpg" loading="lazy" alt="Pesitro UltraClean photo 5">
+<img src="images/img15.jpg" loading="lazy" alt="Pesitro UltraClean photo 6">
+<img src="images/img16.jpg" loading="lazy" alt="Pesitro UltraClean photo 7">
+<img src="images/img17.jpg" loading="lazy" alt="Pesitro UltraClean photo 8">
+<img src="images/img18.jpg" loading="lazy" alt="Pesitro UltraClean photo 9">
+<img src="images/img19.jpg" loading="lazy" alt="Pesitro UltraClean photo 10">
+<img src="images/img20.jpg" loading="lazy" alt="Pesitro UltraClean photo 11">
+</div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox"><img id="lightboxImg" alt=""></div>
+
+<!-- COLORS -->
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <span data-i18n="col_sub">Colors</span>
+      <h2 data-i18n="col_title">Choose your color</h2>
+    </div>
+    <div class="colors">
+      <div class="color"><i style="background:#ffffff;border:1px solid #d9dfe0"></i><span data-i18n="col1">White</span></div>
+      <div class="color"><i style="background:#2e8bdc;border:1px solid #d9dfe0"></i><span data-i18n="col2">Blue</span></div>
+      <div class="color"><i style="background:#b5d334;border:1px solid #d9dfe0"></i><span data-i18n="col3">Green</span></div>
+      <div class="color"><i style="background:#f26bd0;border:1px solid #d9dfe0"></i><span data-i18n="col4">Pink</span></div>
+      <div class="color"><i style="background:#8e4bc4;border:1px solid #d9dfe0"></i><span data-i18n="col5">Purple</span></div>
+      <div class="color"><i style="background:#e0302f;border:1px solid #d9dfe0"></i><span data-i18n="col6">Red</span></div>
+      <div class="color"><i style="background:#f26522;border:1px solid #d9dfe0"></i><span data-i18n="col7">Orange</span></div>
+      <div class="color"><i style="background:#f9d71c;border:1px solid #d9dfe0"></i><span data-i18n="col8">Yellow</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOR WHOM -->
+<section class="section about">
+  <div class="container" style="display:block">
+    <div class="section-title">
+      <span data-i18n="who_sub">For whom</span>
+      <h2 data-i18n="who_title">Who is it for?</h2>
+    </div>
+    <div class="grid">
+      <div class="card"><div class="icon">😁</div><h3 data-i18n="w1_t">Braces wearers</h3><p data-i18n="w1_d">Teens and adults with fixed orthodontic braces.</p></div>
+      <div class="card"><div class="icon">🌸</div><h3 data-i18n="w2_t">Sensitive gums</h3><p data-i18n="w2_d">Soft bristles for those who need gentle care.</p></div>
+      <div class="card"><div class="icon">🏥</div><h3 data-i18n="w3_t">Clinics & pharmacies</h3><p data-i18n="w3_d">A great product to recommend and sell to patients.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO USE -->
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <span data-i18n="how_sub">How to use</span>
+      <h2 data-i18n="how_title">3 simple steps</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3 data-i18n="s1_t">Wet the brush</h3><p data-i18n="s1_d">Rinse the brush with warm water and apply toothpaste.</p></div>
+      <div class="step"><h3 data-i18n="s2_t">Clean the braces</h3><p data-i18n="s2_d">Brush gently above and below the brackets with small movements.</p></div>
+      <div class="step"><h3 data-i18n="s3_t">Rinse & repeat</h3><p data-i18n="s3_d">Brush twice a day for at least 2 minutes.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- DISTRIBUTOR -->
+<section class="distributor">
+  <div class="container">
+    <h2 data-i18n="dist_title">ReSmile: official PESITRO distributor in Egypt</h2>
+    <p data-i18n="dist_text">We supply pharmacies, dental clinics and orthodontists all over Egypt. Become our partner and get special wholesale prices.</p>
+    <a href="#order" class="btn" data-i18n="dist_btn">Become a Partner</a>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-title">
+      <span data-i18n="faq_sub">FAQ</span>
+      <h2 data-i18n="faq_title">Frequently asked questions</h2>
+    </div>
+    <div class="faq">
+      <div class="faq-item"><div class="faq-q" data-i18n="q1">Is it suitable for people without braces?</div><div class="faq-a" data-i18n="a1">Yes, its soft bristles are great for sensitive teeth and gums too.</div></div>
+      <div class="faq-item"><div class="faq-q" data-i18n="q2">How often should I replace the brush?</div><div class="faq-a" data-i18n="a2">Dentists recommend replacing your toothbrush every 2–3 months.</div></div>
+      <div class="faq-item"><div class="faq-q" data-i18n="q3">Do you deliver across Egypt?</div><div class="faq-a" data-i18n="a3">Yes, we deliver to all governorates of Egypt.</div></div>
+      <div class="faq-item"><div class="faq-q" data-i18n="q4">Can pharmacies and clinics buy wholesale?</div><div class="faq-a" data-i18n="a4">Yes! Contact us via the form or WhatsApp for wholesale prices.</div></div>
+      <div class="faq-item"><div class="faq-q" data-i18n="q5">What is the 1680 Single Tuft brush for?</div><div class="faq-a" data-i18n="a5">It is engineered for precise cleaning of hard-to-reach areas: orthodontic care, implants, bridges, post-surgical cleaning, and crowded or misaligned teeth.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ORDER -->
+<section class="section order about" id="order">
+  <div class="container">
+    <div class="contact-info">
+      <div class="section-title" style="text-align:start;margin-bottom:30px">
+        <span data-i18n="ord_sub">Contact us</span>
+        <h2 data-i18n="ord_title">Order your Pesitro Ortho today</h2>
+      </div>
+      <div class="row"><span class="icon">📍</span><span data-i18n="addr">Egypt</span></div>
+      <div class="row"><span class="icon">📞</span><a class="ltr" href="tel:+201033534313">+20 103 353 4313</a></div>
+      <div class="row"><span class="icon">📱</span><a class="ltr" href="tel:+79880928314">+7 988 092 8314</a></div>
+      <div class="row"><span class="icon">✉️</span><a href="mailto:mahmoudabdelghaffar1@gmail.com">mahmoudabdelghaffar1@gmail.com</a></div>
+    </div>
+    <form id="orderForm">
+      <input type="text" name="name" required data-i18n-ph="ph_name" placeholder="Your name">
+      <input type="tel" name="phone" required data-i18n-ph="ph_phone" placeholder="Phone number">
+      <select name="product">
+        <option data-i18n="opt_p1">Pesitro 6580 Ortho</option>
+        <option data-i18n="opt_p4">Pesitro Ortho-Care Kit</option>
+        <option data-i18n="opt_p2">Pesitro 1680 Single Tuft</option>
+        <option data-i18n="opt_p3">Both products</option>
+      </select>
+      <select name="type">
+        <option data-i18n="opt1">Personal order</option>
+        <option data-i18n="opt2">Pharmacy / Clinic (wholesale)</option>
+      </select>
+      <input type="number" name="qty" min="1" value="1" data-i18n-ph="ph_qty" placeholder="Quantity">
+      <textarea name="msg" rows="4" data-i18n-ph="ph_msg" placeholder="Message / address"></textarea>
+      <button type="submit" class="btn btn-primary" data-i18n="btn_send">Send via WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="logo"><img id="logoFooter" src="images/img21.png" alt="Resmile Center"></div>
+  <p data-i18n="footer">© 2025 ReSmile – Official PESITRO distributor in Egypt. All rights reserved.</p>
+</footer>
+
+<a href="https://wa.me/201033534313" class="whatsapp" target="_blank" aria-label="WhatsApp">
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="#fff"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 2.5 1 3 .8 3.6.7.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2S21.8 6.6 21.8 12 17.4 21.8 12 21.8zM12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.8 1 3.8 1.5 5.8 1.5 6.6 0 12-5.4 12-12S18.6 0 12 0z"/></svg>
+</a>
+
+<script>
+const WHATSAPP = "201033534313";
+
+const grid = document.getElementById("galleryGrid");
+const lb = document.getElementById("lightbox");
+const lbImg = document.getElementById("lightboxImg");
+grid.querySelectorAll("img").forEach(img => {
+  img.onclick = () => { lbImg.src = img.src; lb.classList.add("show"); };
+});
+lb.onclick = () => lb.classList.remove("show");
+
+const ar = {
+  topbar:"🇪🇬 الموزع الرسمي لـ PESITRO في مصر",
+  nav_home:"الرئيسية",nav_features:"المميزات",nav_product:"المنتج",nav_gallery:"الصور",nav_faq:"الأسئلة",nav_contact:"تواصل معنا",
+  hero_badge:"✨ جديد في مصر",
+  hero_text:"6,580 شعيرة بوليستر فائقة النعومة UltraX™ (قطر 0.10 مم) تنظف برفق حول الأقواس والأسلاك مع تقليل تهيج اللثة.",
+  btn_order:"اطلب الآن",btn_more:"اعرف المزيد",hero_stat:"شعيرة فائقة النعومة",
+  feat_sub:"لماذا Pesitro Ortho",feat_title:"مصممة خصيصاً للعناية بالتقويم",
+  f1_t:"أخدود على شكل U",f1_d:"تصميم الشعيرات على شكل U يحيط بأقواس وأسلاك التقويم.",
+  f2_t:"6,580 شعيرة فائقة النعومة",f2_d:"شعيرات بوليستر UltraX™ بقطر 0.10 مم تقلل تهيج اللثة.",
+  f3_t:"رأس مرن بزاوية 45°",f3_d:"رأس مائل يصل بسهولة إلى الأسنان الخلفية.",
+  f4_t:"مقبض خالٍ من BPA",f4_d:"قبضة مريحة غير قابلة للانزلاق بألوان مبهجة.",
+  prod_sub:"عن المنتج",prod_title:"عناية ذكية لابتسامة جميلة",
+  prod_text:"فرشاة Pesitro UltraClean 6580 Ortho مصممة لمن يستخدمون تقويم الأسنان، بـ 6,580 شعيرة بوليستر UltraX™ فائقة النعومة (0.10 مم).",
+  c1:"شعيرات فائقة النعومة 0.10 مم لطيفة على اللثة",c2:"مقبض خالٍ من BPA بقبضة مريحة غير قابلة للانزلاق",c3:"رأس مرن بزاوية 45° يصل إلى الأسنان الخلفية",c4:"شعيرات على شكل U تحيط بالأقواس والأسلاك",
+  nav_tuft:"1680 خصلة واحدة",nav_kit:"طقم العناية بالتقويم",
+  kit_sub:"جديد · طقم متكامل",kit_name:"طقم العناية بالتقويم",kit_text:"كل ما تحتاجه للحفاظ على نظافة وراحة التقويم في عبوة واحدة.",kit_incl:"محتويات الطقم:",
+  k1:"فرشاة أسنان 6580 Ortho",k2:"خيط أسنان Advance Ultra Floss",k3:"3 فرش بين الأسنان",k4:"شمع تقويم بفيتامين E",
+  k5:"شعيرات الفرشاة: 6,580 شعيرة Ultra-X بقطر 0.10 مم",k6:"الشمع: شمع تقويم مقطّع مسبقاً بفيتامين E",k7:"كمية الخيط: 30 استخداماً",
+  opt_p4:"Pesitro Ortho-Care Kit",
+  tuft_sub:"جديد · فرشاة الخصلة الواحدة",
+  tuft_tag:"كل سنّ يستحق عناية خاصة.",
+  tuft_text:"فرشاة PESITRO UltraClean 1680 ذات الخصلة الواحدة مصممة للتنظيف الدقيق في المناطق التي لا تصل إليها الفرشاة العادية، وتمنح نظافة بمستوى احترافي في كل استخدام.",
+  tuft_ideal:"مثالية لـ:",
+  t1:"العناية بالتقويم",t2:"الزرعات والجسور",t3:"التنظيف بعد الجراحة",t4:"الأسنان المتزاحمة أو غير المنتظمة",
+  tuft_col:"متوفرة بـ 8 ألوان",
+  var_sub:"الأنواع",var_title:"متوفرة بنوعين",
+  v1_t:"6 مم (رأس دائري)",v1_d:"لتنظيف ما بين الأسنان وخط اللثة بلطف.",
+  v2_t:"9 مم (رأس مخروطي)",v2_d:"وصول عميق حول أسلاك التقويم والجسور والزرعات.",
+  adv_sub:"المزايا",adv_title:"5 مزايا",
+  a_1:"شعيرات 0.10 مم",a_2:"شعيرات 0.12 مم",a_3:"1680 شعيرة",a_4:"تقنية Ultra-X™",a_5:"التقويم والجسور والزرعات",
+  cert:"CE · ISO 13485",
+  q5:"ما فائدة فرشاة 1680 ذات الخصلة الواحدة؟",a5:"مصممة للتنظيف الدقيق في المناطق التي يصعب الوصول إليها: العناية بالتقويم، والزرعات، والجسور، والتنظيف بعد الجراحة، والأسنان المتزاحمة أو غير المنتظمة.",
+  opt_p1:"Pesitro 6580 Ortho",opt_p2:"Pesitro 1680 Single Tuft",opt_p3:"المنتجان معاً",
+  price_lbl:"السعر",cur:"جنيه مصري",
+  gal_sub:"معرض الصور",gal_title:"Pesitro Ortho في الصور",
+  col_sub:"الألوان",col_title:"اختر لونك",
+  col1:"أبيض",col2:"أزرق",col3:"أخضر",col4:"وردي",col5:"بنفسجي",col6:"أحمر",col7:"برتقالي",col8:"أصفر",
+  who_sub:"لمن",who_title:"لمن هذه الفرشاة؟",
+  w1_t:"مستخدمو التقويم",w1_d:"للمراهقين والبالغين الذين يستخدمون التقويم الثابت.",
+  w2_t:"اللثة الحساسة",w2_d:"شعيرات ناعمة لمن يحتاجون عناية لطيفة.",
+  w3_t:"العيادات والصيدليات",w3_d:"منتج ممتاز للتوصية به وبيعه للمرضى.",
+  how_sub:"طريقة الاستخدام",how_title:"3 خطوات بسيطة",
+  s1_t:"بلل الفرشاة",s1_d:"اشطف الفرشاة بماء دافئ وضع معجون الأسنان.",
+  s2_t:"نظف التقويم",s2_d:"نظف برفق أعلى وأسفل الأقواس بحركات صغيرة.",
+  s3_t:"اشطف وكرر",s3_d:"نظف أسنانك مرتين يومياً لمدة دقيقتين على الأقل.",
+  dist_title:"ReSmile: الموزع الرسمي لـ PESITRO في مصر",
+  dist_text:"نوفر منتجاتنا للصيدليات وعيادات الأسنان وأطباء التقويم في جميع أنحاء مصر. كن شريكنا واحصل على أسعار جملة خاصة.",
+  dist_btn:"كن شريكاً",
+  faq_sub:"الأسئلة الشائعة",faq_title:"أسئلة متكررة",
+  q1:"هل تناسب من لا يستخدم التقويم؟",a1:"نعم، شعيراتها الناعمة ممتازة للأسنان واللثة الحساسة أيضاً.",
+  q2:"متى يجب تغيير الفرشاة؟",a2:"ينصح أطباء الأسنان بتغيير الفرشاة كل 2–3 أشهر.",
+  q3:"هل يوجد توصيل لكل مصر؟",a3:"نعم، نوصل لجميع محافظات مصر.",
+  q4:"هل يمكن للصيدليات والعيادات الشراء بالجملة؟",a4:"بالتأكيد! تواصل معنا عبر النموذج أو واتساب لمعرفة أسعار الجملة.",
+  ord_sub:"تواصل معنا",ord_title:"اطلب Pesitro Ortho اليوم",
+  addr:"مصر",
+  ph_name:"الاسم",ph_phone:"رقم الهاتف",ph_qty:"الكمية",ph_msg:"رسالة / العنوان",
+  opt1:"طلب شخصي",opt2:"صيدلية / عيادة (جملة)",btn_send:"إرسال عبر واتساب",
+  footer:"© 2025 ReSmile – الموزع الرسمي لـ PESITRO في مصر. جميع الحقوق محفوظة."
+};
+
+const en = {};
+document.querySelectorAll("[data-i18n]").forEach(el => en[el.dataset.i18n] = el.textContent);
+document.querySelectorAll("[data-i18n-ph]").forEach(el => en[el.dataset.i18nPh] = el.placeholder);
+
+let lang = localStorage.getItem("lang") || "en";
+function setLang(l){
+  const dict = l === "ar" ? ar : en;
+  document.documentElement.lang = l;
+  document.documentElement.dir = l === "ar" ? "rtl" : "ltr";
+  document.querySelectorAll("[data-i18n]").forEach(el => { if (dict[el.dataset.i18n]) el.textContent = dict[el.dataset.i18n]; });
+  document.querySelectorAll("[data-i18n-ph]").forEach(el => { if (dict[el.dataset.i18nPh]) el.placeholder = dict[el.dataset.i18nPh]; });
+  document.getElementById("langBtn").textContent = l === "ar" ? "English" : "العربية";
+  localStorage.setItem("lang", l); lang = l;
+}
+setLang(lang);
+document.getElementById("langBtn").onclick = () => setLang(lang === "en" ? "ar" : "en");
+
+document.getElementById("burger").onclick = () => document.getElementById("menu").classList.toggle("open");
+document.querySelectorAll("#menu a").forEach(a => a.onclick = () => document.getElementById("menu").classList.remove("open"));
+
+document.querySelectorAll(".faq-q").forEach(q => q.onclick = () => q.parentElement.classList.toggle("active"));
+
+document.getElementById("orderForm").onsubmit = e => {
+  e.preventDefault();
+  const f = e.target;
+  const text = `New order – Pesitro
+Product: ${f.product.value}
+Name: ${f.name.value}
+Phone: ${f.phone.value}
+Type: ${f.type.value}
+Qty: ${f.qty.value}
+Message: ${f.msg.value}`;
+  window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(text)}`, "_blank");
+};
+</script>
+</body>
+</html>
